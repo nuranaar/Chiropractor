@@ -1,0 +1,124 @@
+%lists{
+    ul {
+        display: flex;
+        list-style: none;
+        li{
+            color: white;
+            i{
+                padding: 1px;
+            }
+            
+        }
+    }
+    
+}
+
+
+*{
+    font-family: $main_font;
+    p{
+        font-family: $p_font;   
+    }  
+}
+%a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+        text-decoration: none;
+        color: $help_color;
+    }
+    
+}
+%h6{
+    color: $section_color;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+%orangeButton{
+    text-decoration: none;
+    font-family: $p_font;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: $main_color;
+    border:1px solid $main_color;
+    border-radius: 10px;
+    &:hover{
+        border:1px solid $help_color;
+        background-color: $help_color;
+        text-decoration: none;
+    }
+    &:focus{
+        background-color: $focus_color;
+        border-color: $focus_color;
+        box-shadow: none;
+        &:hover{
+        border:1px solid $help_color;
+        background-color: $help_color;
+        }
+    }
+
+}
+
+%greenButton{
+    font-family: $p_font;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: $help_color;
+    border:1px solid $help_color;
+    border-radius: 10px;
+    &:hover{
+        background-color: $main_color;
+        border:1px solid $main_color;
+    }
+    &:focus{
+        background-color: $focus_color;
+        border-color: $focus_color;
+        box-shadow: none;
+        &:hover{
+            background-color: $main_color;
+            border:1px solid $main_color;
+        }
+    }
+}
+%sectionTitle{
+    h6{
+        margin-top: 100px;
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        span{
+            color: $main_color;
+        }
+    }
+    
+}
+%sectionText{
+    padding: 0% 20%;
+    color: $p_color;
+}
+%sectionIcon{
+    position: relative;
+    color: $main_color;
+        &::before{
+            content: '';
+            position: absolute;
+            left: 40%;
+            top: 44%;
+            width: 80px;
+            height: 2px;
+            background-color: $p_color;
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            right: 40%;
+            top: 44%;
+            width: 80px;
+            height: 2px;
+            background-color: $p_color;
+        }
+}
+
