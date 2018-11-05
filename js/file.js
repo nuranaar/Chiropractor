@@ -2,13 +2,11 @@ $(document).ready(function () {
     $(".hoverSel").mouseover(function () {
         $(".selList").slideUp(700);
         $(this).next().slideDown(700);
-
     });
 
 
     $(".navbar-nav").on("mouseleave", function () {
         $(this).find(".selList").slideUp(700);
-
     });
 
 
