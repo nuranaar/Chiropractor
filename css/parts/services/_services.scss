@@ -1,0 +1,25 @@
+.servicesHtml{
+   #offer{
+    background-color: white;
+    h6{
+        color: $section_color;
+    }
+    p{
+        color: $p_color;
+    }
+    .services{
+        .service{
+            .servicesText{
+               h6{
+                color: $section_color;
+               }
+                p{
+                  color: $p_color;
+                }  
+            }
+           
+        }
+        
+    }
+}
+}
