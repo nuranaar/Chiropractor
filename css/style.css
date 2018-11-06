@@ -31,7 +31,7 @@
   color: #7fc540;
 }
 
-footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, #about .aboutDivs .third h6, #offer .services .service .servicesText a h6, #teem .teemMembers .teemMember .text h6, #clients .owl-carousel .slide .slideContent .text h6, #stats .stats h1, #stats .stats h6, #aboutContent .part h6, #chose .secContent2 .inputs .inputHead h6 {
+footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, #about .aboutDivs .third h6, #offer .services .service .servicesText a h6, #teem .teemMembers .teemMember .text h6, #clients .owl-carousel .slide .slideContent .text h6, #stats .stats h1, #stats .stats h6, #aboutContent .part h6, #chose .secContent2 .inputs .inputHead h6, .singleServ #singleServ h6 {
   color: #444444;
   font-size: 22px;
   font-weight: 700;
@@ -991,7 +991,7 @@ footer .copyright .list ul li a:hover {
 }
 
 .errorHtml #allSec .secText {
-  left: 35%;
+  left: 32%;
 }
 
 .errorHtml #allSec .secText ul {
@@ -1009,7 +1009,7 @@ footer .copyright .list ul li a:hover {
 }
 
 .errorHtml #error .input-group {
-  width: 50%;
+  width: 500px;
 }
 
 .errorHtml #error .input-group .form-control {
@@ -1024,6 +1024,26 @@ footer .copyright .list ul li a:hover {
 
 .errorHtml #error .input-group .btn {
   border-radius: 0;
+}
+
+.singleServ #allSec .secText {
+  left: 36%;
+}
+
+.singleServ #allSec .secText ul {
+  margin-left: 80px;
+}
+
+.singleServ #singleServ img {
+  width: 100%;
+}
+
+.singleServ #singleServ p {
+  color: #777777;
+}
+
+.singleServ #singleServ #chose .right .acc p {
+  color: white;
 }
 
 @media (max-width: 1200px) {
@@ -1128,6 +1148,12 @@ footer .copyright .list ul li a:hover {
   #about .aboutDivs .third h6 span {
     right: 42%;
   }
+  #allSec .sectionBg .secText {
+    left: 38%;
+  }
+  .errorHtml #allSec .secText {
+    left: 30%;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -1190,6 +1216,15 @@ footer .copyright .list ul li a:hover {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+  }
+  #allSec .sectionBg .secText {
+    left: 32%;
+  }
+  .errorHtml #allSec .secText {
+    left: 23%;
+  }
+  .servicesHtml #allSec .sectionBg .secText {
+    left: 35%;
   }
 }
 /*# sourceMappingURL=style.css.map */

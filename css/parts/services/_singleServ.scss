@@ -1,0 +1,30 @@
+.singleServ{
+    #allSec{
+        .secText{
+            left: 36%;
+            ul{
+                margin-left: 80px;
+            }
+        }
+    }
+  #singleServ{
+      img{
+        width: 100%;
+      }
+      h6{
+        @extend %h6;
+      }
+      p{
+        color: $p_color;
+      }
+      #chose{
+          .right{
+              .acc{
+                  p{
+                      color: white;
+                  }
+              }
+          }
+      }
+  }  
+}

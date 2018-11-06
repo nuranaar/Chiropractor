@@ -153,6 +153,12 @@ ul{
         }
     }
 }
+#allSec .sectionBg .secText {
+    left: 38%
+}
+.errorHtml #allSec .secText {
+    left: 30%;
+}
 };
 
 // sm
@@ -246,6 +252,16 @@ ul{
                 justify-content: space-evenly;
             }
         }
+    }
+    
+    #allSec .sectionBg .secText {
+        left: 32%
+    }
+    .errorHtml #allSec .secText {
+        left: 23%;
+    }
+    .servicesHtml #allSec .sectionBg .secText {
+        left: 35%;
     }
 }
 
