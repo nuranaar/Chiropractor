@@ -31,13 +31,13 @@
   color: #7fc540;
 }
 
-footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, #about .aboutDivs .third h6, #offer .services .service .servicesText a h6, #teem .teemMembers .teemMember .text h6, #clients .owl-carousel .slide .slideContent .text h6, #stats .stats h1, #stats .stats h6 {
+footer #footSec .colTitle h6, #aboutContent .part h6, #chose .secContent2 .inputs .inputHead h6, #featured .card h6, #about .aboutDivs .second h6, #about .aboutDivs .third h6, #offer .services .service .servicesText a h6, #teem .teemMembers .teemMember .text h6, #clients .owl-carousel .slide .slideContent .text h6, #stats .stats h1, #stats .stats h6 {
   color: #444444;
   font-size: 22px;
   font-weight: 700;
 }
 
-#navSlide .carousel .carousel-item .text .carouselText .btn, #offer .services .service .btn, #news .cards .card .card-body .btn, #action .actionContent .btn {
+#navSlide .carousel .carousel-item .text .carouselText .btn, #chose .secContent2 .btn, #offer .services .service .btn, #news .cards .card .card-body .btn, #action .actionContent .btn {
   text-decoration: none;
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -48,20 +48,20 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   border-radius: 10px;
 }
 
-#navSlide .carousel .carousel-item .text .carouselText .btn:hover, #offer .services .service .btn:hover, #news .cards .card .card-body .btn:hover, #action .actionContent .btn:hover {
+#navSlide .carousel .carousel-item .text .carouselText .btn:hover, #chose .secContent2 .btn:hover, #offer .services .service .btn:hover, #news .cards .card .card-body .btn:hover, #action .actionContent .btn:hover {
   border: 1px solid #7fc540;
   background-color: #7fc540;
   text-decoration: none;
 }
 
-#navSlide .carousel .carousel-item .text .carouselText .btn:focus, #offer .services .service .btn:focus, #news .cards .card .card-body .btn:focus, #action .actionContent .btn:focus {
+#navSlide .carousel .carousel-item .text .carouselText .btn:focus, #chose .secContent2 .btn:focus, #offer .services .service .btn:focus, #news .cards .card .card-body .btn:focus, #action .actionContent .btn:focus {
   background-color: #126195;
   border-color: #126195;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-#navSlide .carousel .carousel-item .text .carouselText .btn:focus:hover, #offer .services .service .btn:focus:hover, #news .cards .card .card-body .btn:focus:hover, #action .actionContent .btn:focus:hover {
+#navSlide .carousel .carousel-item .text .carouselText .btn:focus:hover, #chose .secContent2 .btn:focus:hover, #offer .services .service .btn:focus:hover, #news .cards .card .card-body .btn:focus:hover, #action .actionContent .btn:focus:hover {
   border: 1px solid #7fc540;
   background-color: #7fc540;
 }
@@ -93,28 +93,28 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   border: 1px solid #f2963f;
 }
 
-#offer .title h6, #teem .title h6, #news .title h6, #action .actionContent .title h6, #chose .title h6, #gallery .title h6, #allSec .sectionBg .secText .title h6 {
+#aboutContent .title h6, #chose .secContent1 .title h6, #offer .title h6, #teem .title h6, #news .title h6, #action .actionContent .title h6, #chose .title h6, #gallery .title h6, #allSec .sectionBg .secText .title h6 {
   margin-top: 100px;
   color: white;
   font-size: 30px;
   font-weight: 700;
 }
 
-#offer .title h6 span, #teem .title h6 span, #news .title h6 span, #action .actionContent .title h6 span, #chose .title h6 span, #gallery .title h6 span, #allSec .sectionBg .secText .title h6 span {
+#aboutContent .title h6 span, #chose .secContent1 .title h6 span, #offer .title h6 span, #teem .title h6 span, #news .title h6 span, #action .actionContent .title h6 span, #chose .title h6 span, #gallery .title h6 span, #allSec .sectionBg .secText .title h6 span {
   color: #f2963f;
 }
 
-#offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text {
+#aboutContent .text, #aboutContent .part p, #chose .secContent1 .text, #offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text {
   padding: 0% 20%;
   color: #777777;
 }
 
-#offer .icon, #teem .icon, #news .icon, #chose .icon, #gallery .icon {
+#chose .secContent1 .icon, #offer .icon, #teem .icon, #news .icon, #chose .icon, #gallery .icon {
   position: relative;
   color: #f2963f;
 }
 
-#offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before {
+#chose .secContent1 .icon::before, #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before {
   content: '';
   position: absolute;
   left: 40%;
@@ -124,7 +124,7 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   background-color: #777777;
 }
 
-#offer .icon::after, #teem .icon::after, #news .icon::after, #chose .icon::after, #gallery .icon::after {
+#chose .secContent1 .icon::after, #offer .icon::after, #teem .icon::after, #news .icon::after, #chose .icon::after, #gallery .icon::after {
   content: '';
   position: absolute;
   right: 40%;
@@ -375,6 +375,74 @@ footer .copyright .list ul li a:hover {
 
 .fancybox-active .fancybox-navigation .fancybox-button--arrow_right {
   right: 20%;
+}
+
+#aboutContent {
+  background-color: #f8f8f8;
+}
+
+#aboutContent .title h6 {
+  color: #444444;
+  font-size: 24PX;
+}
+
+#aboutContent .text {
+  padding: 0;
+}
+
+#aboutContent .part .partImg img {
+  width: 100%;
+}
+
+#aboutContent .part p {
+  padding: 0;
+}
+
+#aboutContent .welcomeImg img {
+  width: 100%;
+}
+
+#chose .secContent1 .title h6 {
+  color: #444444;
+}
+
+#chose .secContent2 .inputs {
+  background-color: #444444;
+}
+
+#chose .secContent2 .inputs .inputHead h6 {
+  color: white;
+}
+
+#chose .secContent2 .inputs .inputHead h6 span {
+  color: #f2963f;
+}
+
+#chose .secContent2 form .form-group .form-control {
+  border-radius: 0;
+  padding: 20px;
+}
+
+#chose .secContent2 form .form-group .form-control:focus {
+  border: white;
+  -webkit-box-shadow: 0px 0px 5px 1px white;
+          box-shadow: 0px 0px 5px 1px white;
+}
+
+#chose .secContent2 form .form-group .custom-select {
+  border-radius: 0;
+  height: calc(2.25rem + 6px);
+}
+
+#chose .secContent2 form .form-group .custom-select:focus {
+  border: white;
+  -webkit-box-shadow: 0px 0px 5px 1px white;
+          box-shadow: 0px 0px 5px 1px white;
+}
+
+#chose .secContent2 .btn {
+  border-radius: 0;
+  padding: 10px 20px;
 }
 
 #featured {
@@ -843,6 +911,7 @@ footer .copyright .list ul li a:hover {
   font-weight: 700 !important;
   position: absolute;
   top: 0;
+  z-index: 2;
 }
 
 #allSec .navbar .navbar-nav li {
@@ -902,10 +971,10 @@ footer .copyright .list ul li a:hover {
 }
 
 @media (max-width: 1200px) {
-  #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before {
+  #chose .secContent1 .icon::before, #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before {
     width: 70px;
   }
-  #offer .icon::after, #teem .icon::after, #news .icon::after, #chose .icon::after, #gallery .icon::after {
+  #chose .secContent1 .icon::after, #offer .icon::after, #teem .icon::after, #news .icon::after, #chose .icon::after, #gallery .icon::after {
     width: 70px;
   }
   .indexHeader .headerLeft ul {
@@ -954,14 +1023,14 @@ footer .copyright .list ul li a:hover {
 }
 
 @media (max-width: 992px) {
-  #offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text {
+  #aboutContent .text, #aboutContent .part p, #chose .secContent1 .text, #offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text {
     padding: 0;
   }
-  #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before {
+  #chose .secContent1 .icon::before, #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before {
     width: 70px;
     left: 35%;
   }
-  #offer .icon::after, #teem .icon::after, #news .icon::after, #chose .icon::after, #gallery .icon::after {
+  #chose .secContent1 .icon::after, #offer .icon::after, #teem .icon::after, #news .icon::after, #chose .icon::after, #gallery .icon::after {
     width: 70px;
     right: 35%;
   }
@@ -1006,14 +1075,14 @@ footer .copyright .list ul li a:hover {
 }
 
 @media (max-width: 767.98px) {
-  #offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text {
+  #aboutContent .text, #aboutContent .part p, #chose .secContent1 .text, #offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text {
     padding: 0;
   }
-  #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before {
+  #chose .secContent1 .icon::before, #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before {
     width: 70px;
     left: 30%;
   }
-  #offer .icon::after, #teem .icon::after, #news .icon::after, #chose .icon::after, #gallery .icon::after {
+  #chose .secContent1 .icon::after, #offer .icon::after, #teem .icon::after, #news .icon::after, #chose .icon::after, #gallery .icon::after {
     width: 70px;
     right: 30%;
   }

@@ -1,0 +1,88 @@
+#aboutContent{
+    background-color: $bg_color;
+    .title{
+        @extend %sectionTitle;
+        h6{
+            color: $section_color;
+            font-size: 24PX;
+        }
+    }
+    .text{
+        @extend %sectionText;
+        padding: 0;
+    }
+    .part{
+        .partImg{
+            img{
+                width: 100%;
+            }
+        }
+        h6{
+            @extend %h6;
+        }
+        p{
+            @extend %sectionText;
+            padding: 0;
+        }
+    }
+    .welcomeImg{
+        img{
+            width: 100%;
+        }
+    }
+}
+#chose{
+    .secContent1{
+        .title{
+            @extend %sectionTitle;
+            h6{
+                color: $section_color;
+            }
+        }
+        .text{
+            @extend %sectionText;
+        }
+        .icon{
+            @extend %sectionIcon;
+        }
+    }
+    .secContent2{
+        .inputs{
+            background-color: $section_color;
+            .inputHead{
+                h6{
+                    @extend %h6;
+                    color: white;
+                    span{
+                        color: $main_color;
+                    }
+                }
+            }
+        }
+        form{
+            .form-group{
+                .form-control{
+                    border-radius: 0;
+                    padding: 20px;
+                    &:focus{
+                        border: white;
+                        box-shadow: 0px 0px 5px 1px white;
+                    }
+                }
+                .custom-select{
+                    border-radius: 0;
+                    height: calc(2.25rem + 6px);
+                    &:focus{
+                        border: white;
+                        box-shadow: 0px 0px 5px 1px white;
+                    }
+                }
+            }
+        }
+        .btn{
+            @extend %orangeButton;
+            border-radius: 0;
+            padding: 10px 20px;
+        }
+    }
+}
