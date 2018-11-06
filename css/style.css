@@ -37,7 +37,7 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   font-weight: 700;
 }
 
-#navSlide .carousel .carousel-item .text .carouselText .btn, #offer .services .service .btn, #news .cards .card .card-body .btn, #action .actionContent .btn, #chose .secContent2 .btn {
+#navSlide .carousel .carousel-item .text .carouselText .btn, #offer .services .service .btn, #news .cards .card .card-body .btn, #action .actionContent .btn, #chose .secContent2 .btn, .errorHtml #error .input-group .btn {
   text-decoration: none;
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -48,20 +48,20 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   border-radius: 10px;
 }
 
-#navSlide .carousel .carousel-item .text .carouselText .btn:hover, #offer .services .service .btn:hover, #news .cards .card .card-body .btn:hover, #action .actionContent .btn:hover, #chose .secContent2 .btn:hover {
+#navSlide .carousel .carousel-item .text .carouselText .btn:hover, #offer .services .service .btn:hover, #news .cards .card .card-body .btn:hover, #action .actionContent .btn:hover, #chose .secContent2 .btn:hover, .errorHtml #error .input-group .btn:hover {
   border: 1px solid #7fc540;
   background-color: #7fc540;
   text-decoration: none;
 }
 
-#navSlide .carousel .carousel-item .text .carouselText .btn:focus, #offer .services .service .btn:focus, #news .cards .card .card-body .btn:focus, #action .actionContent .btn:focus, #chose .secContent2 .btn:focus {
+#navSlide .carousel .carousel-item .text .carouselText .btn:focus, #offer .services .service .btn:focus, #news .cards .card .card-body .btn:focus, #action .actionContent .btn:focus, #chose .secContent2 .btn:focus, .errorHtml #error .input-group .btn:focus {
   background-color: #126195;
   border-color: #126195;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-#navSlide .carousel .carousel-item .text .carouselText .btn:focus:hover, #offer .services .service .btn:focus:hover, #news .cards .card .card-body .btn:focus:hover, #action .actionContent .btn:focus:hover, #chose .secContent2 .btn:focus:hover {
+#navSlide .carousel .carousel-item .text .carouselText .btn:focus:hover, #offer .services .service .btn:focus:hover, #news .cards .card .card-body .btn:focus:hover, #action .actionContent .btn:focus:hover, #chose .secContent2 .btn:focus:hover, .errorHtml #error .input-group .btn:focus:hover {
   border: 1px solid #7fc540;
   background-color: #7fc540;
 }
@@ -93,18 +93,18 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   border: 1px solid #f2963f;
 }
 
-#offer .title h6, #teem .title h6, #news .title h6, #action .actionContent .title h6, #chose .title h6, #gallery .title h6, #allSec .sectionBg .secText .title h6, #aboutContent .title h6, #chose .secContent1 .title h6 {
+#offer .title h6, #teem .title h6, #news .title h6, #action .actionContent .title h6, #chose .title h6, #gallery .title h6, #allSec .sectionBg .secText .title h6, #aboutContent .title h6, #chose .secContent1 .title h6, .errorHtml #error .title h6 {
   margin-top: 100px;
   color: white;
   font-size: 30px;
   font-weight: 700;
 }
 
-#offer .title h6 span, #teem .title h6 span, #news .title h6 span, #action .actionContent .title h6 span, #chose .title h6 span, #gallery .title h6 span, #allSec .sectionBg .secText .title h6 span, #aboutContent .title h6 span, #chose .secContent1 .title h6 span {
+#offer .title h6 span, #teem .title h6 span, #news .title h6 span, #action .actionContent .title h6 span, #chose .title h6 span, #gallery .title h6 span, #allSec .sectionBg .secText .title h6 span, #aboutContent .title h6 span, #chose .secContent1 .title h6 span, .errorHtml #error .title h6 span {
   color: #f2963f;
 }
 
-#offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text, #aboutContent .text, #aboutContent .part p, #chose .secContent1 .text {
+#offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text, #aboutContent .text, #aboutContent .part p, #chose .secContent1 .text, .errorHtml #error .text {
   padding: 0% 20%;
   color: #777777;
 }
@@ -990,6 +990,42 @@ footer .copyright .list ul li a:hover {
   color: #777777;
 }
 
+.errorHtml #allSec .secText {
+  left: 35%;
+}
+
+.errorHtml #allSec .secText ul {
+  margin-left: 80px;
+}
+
+.errorHtml #error .title h6 {
+  font-size: 3em;
+}
+
+.errorHtml #error .icon a {
+  text-decoration: none;
+  font-size: 3em;
+  color: #f2963f;
+}
+
+.errorHtml #error .input-group {
+  width: 50%;
+}
+
+.errorHtml #error .input-group .form-control {
+  border-radius: 0;
+}
+
+.errorHtml #error .input-group .form-control:focus {
+  border-color: #777777;
+  -webkit-box-shadow: 0px 0px 5px -1px #777777;
+          box-shadow: 0px 0px 5px -1px #777777;
+}
+
+.errorHtml #error .input-group .btn {
+  border-radius: 0;
+}
+
 @media (max-width: 1200px) {
   #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before, #chose .secContent1 .icon::before {
     width: 70px;
@@ -1043,7 +1079,7 @@ footer .copyright .list ul li a:hover {
 }
 
 @media (max-width: 992px) {
-  #offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text, #aboutContent .text, #aboutContent .part p, #chose .secContent1 .text {
+  #offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text, #aboutContent .text, #aboutContent .part p, #chose .secContent1 .text, .errorHtml #error .text {
     padding: 0;
   }
   #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before, #chose .secContent1 .icon::before {
@@ -1095,7 +1131,7 @@ footer .copyright .list ul li a:hover {
 }
 
 @media (max-width: 767.98px) {
-  #offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text, #aboutContent .text, #aboutContent .part p, #chose .secContent1 .text {
+  #offer .text, #teem .text, #news .text, #action .actionContent .text, #chose .text, #gallery .text, #aboutContent .text, #aboutContent .part p, #chose .secContent1 .text, .errorHtml #error .text {
     padding: 0;
   }
   #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before, #chose .secContent1 .icon::before {

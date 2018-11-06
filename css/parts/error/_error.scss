@@ -1,0 +1,43 @@
+.errorHtml{
+    #allSec{
+        .secText{
+            left:35%;
+            ul{
+                margin-left: 80px;
+            }
+        }
+    }
+    #error{
+        .title{
+            @extend %sectionTitle;
+            h6{
+                font-size: 3em;
+            }
+        }
+        .text{
+            @extend %sectionText;            
+        }
+        .icon{
+            a{
+                text-decoration: none;
+                font-size: 3em;
+                color: $main_color;
+            }
+        }
+        .input-group{
+            width: 50%;
+            .form-control{
+                border-radius: 0;
+                &:focus{
+                border-color: $p_color;
+                box-shadow: 0px 0px 5px -1px $p_color;
+                }
+            }
+            
+            .btn{
+                @extend %orangeButton;
+                border-radius: 0;
+            }
+        }
+    }
+}
