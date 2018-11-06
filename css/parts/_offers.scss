@@ -1,0 +1,42 @@
+#offer{
+    text-align: center;
+    background-color: $section_color;
+    .title{
+        @extend %sectionTitle;
+    }
+    .text{
+    @extend %sectionText;
+    color: white;
+    }
+    .icon{
+        @extend %sectionIcon;
+    }
+    .services{
+        .service{
+            padding: 0px;
+            img{
+                width: 90%;
+            }
+            .servicesText{
+                padding: 0px 30px;
+                a{
+                    @extend %a;
+                    h6{
+                        @extend %h6;
+                        color: white;
+                        &:hover{
+                            color: $help_color;
+                        }
+                    }
+                }
+                p{
+                    color: white;
+                }
+            }
+            .btn{
+                @extend %orangeButton;
+                padding: 10px;
+            }
+        }
+    }
+}

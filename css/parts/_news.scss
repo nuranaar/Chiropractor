@@ -1,0 +1,57 @@
+#news{
+    background-color: #f8f8f8;
+    .title{
+        @extend %sectionTitle;
+        h6{
+            color: $section_color;
+        }
+    }
+    .text{
+        @extend %sectionText;
+    }
+    .icon{
+        @extend %sectionIcon;
+        &::after{
+            background-color: $section_color;
+        }
+        &::before{
+            background-color: $section_color;
+        }
+    }
+    .cards{
+        .card{
+            .card-body{
+                background-image: url(../index-img/blog-bg-effect-1.jpg);
+                position: relative;
+                height: 17em;
+                .cardafter{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #ccccccd1;
+                }
+                h6{
+                    font-weight: 400;
+                    font-size: 28px;
+                    a{
+                        @extend %a;
+                        color: $section_color;
+                    }
+                }
+                span{
+                    color: $main_color;
+                    font-size: 16px;
+                }
+                p{
+                    color: $p_color;
+                }
+                .btn{
+                    @extend %orangeButton;
+                }
+            }
+        }
+    }
+}

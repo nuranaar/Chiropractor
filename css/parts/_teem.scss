@@ -1,0 +1,96 @@
+#teem{
+    text-align: center;
+    .title{
+        @extend %sectionTitle;
+        h6{
+            color: $section_color;
+        }
+    }
+    .text{
+        @extend %sectionText;
+    }
+    .icon{
+        @extend %sectionIcon;
+        &::after{
+            background-color: $section_color;
+        }
+        &::before{
+            background-color: $section_color;
+        }
+    }
+    .teemMembers{
+        .teemMember{
+            .image{
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    background-color: $p_color;
+                    border-radius: 100%;
+                }
+                .imgHover{
+                    transition: all .7s;
+                    opacity: 0;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 100%;
+                    background-color: $p_color+cc;
+                    @extend %lists;
+                    ul{
+                        position: absolute;
+                        top: 40%;
+                        left: 33%;
+                    padding-left: 0px;
+                    justify-content: center;
+                        li{
+                            font-size: 14px;
+                            padding: 2px 15px;
+                            color: $help_color;
+                            a{
+                                @extend %a;
+                                color: $help_color;
+                                &:hover{
+                                    color: $main_color;
+                                }
+                            }
+                        }
+                    }
+                
+                    .btn{
+                        position: absolute;
+                        top: 50%;
+                        left: 33%;
+                        @extend %greenButton;
+                        &:focus{
+                            background-color: $section_color;
+                            border-color: $section_color;
+                        }
+                    }
+                }
+                &:hover .imgHover{
+                    opacity: 1;
+                }
+            }
+            
+            .text{
+                h6{
+                    @extend %h6;
+                    font-size: 18px;
+                    a{
+                        @extend %a;
+                        color: $section_color;
+                        &:hover{
+                            color: $main_color;
+                        }
+                    }
+                }
+                span{
+                    color: $main_color;
+                }
+            }
+        }
+    }
+}

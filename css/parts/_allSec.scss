@@ -1,0 +1,75 @@
+#allSec{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    .navbar{
+        padding: 8px 48px;
+        font-weight: 700 !important;
+        position: absolute;
+        top: 0;
+        .navbar-nav{
+            li{
+            position: relative;
+            padding: 10px;
+                .hoverGreen{
+                    @extend %a;      
+                &:hover{
+                    color: $help_color !important;
+                    }
+                }
+                .nav-link{    
+                    color: white !important;
+                }
+             ul{
+                display: none;
+                padding: 0;
+                position: absolute;
+                list-style: none;
+                li{
+                    border-bottom: 1px solid #ccc;
+                    background-color: $section_color;
+                    width: 150px;
+                    padding: 10px 0px 10px 20px;
+                    a{
+                       @extend %a;
+                        &:hover{
+                            color: $help_color;
+                        }
+                    }
+                }
+            }
+            }
+        }
+    }
+    .sectionBg{
+        height: 400px;
+        background-color: $section_color+cc;
+        .secText{
+            position: absolute;
+        left: 40%;
+        top: 15%;
+            .title{
+                @extend %sectionTitle;
+                h6{
+                    font-size: 3em
+                }
+             }
+             @extend %lists;
+             ul{
+                 font-size: 12px;
+                 padding-left: 17px;
+                 li{   
+                     a{
+                         text-decoration: none;
+                         color: white;
+                     }
+                 }
+         
+             }
+        }
+        
+        
+    }
+}

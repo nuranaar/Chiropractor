@@ -1,0 +1,20 @@
+#action{
+    background-image: url(../index-img/background-effect-2.jpg);
+    background-position: center;
+    background-size: cover;
+    .actionContent{
+        height: 100%;
+        background-color: $section_color+cc;
+        .title{
+            @extend %sectionTitle;
+        }
+        .text{
+            @extend %sectionText;
+            color: white;
+        }
+        .btn{
+            @extend %orangeButton;
+            padding: 10px;
+        }
+    }
+}

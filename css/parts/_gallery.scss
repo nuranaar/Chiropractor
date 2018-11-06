@@ -1,0 +1,30 @@
+#gallery{
+    .title{
+        @extend %sectionTitle;
+        h6{
+            color: $section_color;
+        }
+    }
+    .text{
+        @extend %sectionText;
+    }
+    .icon{
+        @extend %sectionIcon;
+        &::after{
+            background-color: $section_color;
+        }
+        &::before{
+            background-color: $section_color;
+        }
+    }
+    .galleryImgs{
+        display: flex;
+        flex-wrap: wrap;
+        .galImg{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    
+}

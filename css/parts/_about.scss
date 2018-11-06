@@ -1,0 +1,53 @@
+#about{
+    position: relative;
+    background: #f8f8f8;
+    margin-top: -33%;
+    padding-top: 33%;
+    padding-bottom: 100px;
+    .aboutDivs{
+        .first{
+            h2{
+                margin-bottom: 50px;
+                font-size: 40px;
+                font-weight: 700;
+                color: $section_color;
+            }
+            .btn{
+                @extend %greenButton;
+                font-size: 16px;
+                padding: 10px 50px;
+                line-height: 30px;
+                &:focus{
+                    background-color: $section_color;
+                    border-color: $section_color;
+                }
+                
+            
+            }
+        }
+        .second{
+            text-align: center; 
+            h6{
+                @extend %h6;
+                margin-bottom: 20px;
+                
+            }
+        }
+        .third{
+            h6{    
+                @extend %h6;
+                margin-bottom: 50px;
+                font-size: 24px;
+                span{  
+                    right: 53px;
+                    position: absolute;
+                    top: 30px;
+                    font-size: 14px;
+                    color: $main_color;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,46 @@
+#clients{
+    background-image: url(../index-img/background-effect-1.jpg);
+    background-position: center;
+    background-size: cover;
+.owl-carousel{
+    position: relative;
+    height: 100%;
+
+    .owl-item{
+        img{
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 100%;
+            width: 6em;
+        }
+    }
+    
+        .slide{
+        background-color: $section_color+cc;
+        height: 100%;
+        .slideContent{
+            .image{
+                margin-left: 47%;
+            }
+            .icon{
+                font-size: 60px;
+                color: $main_color;
+            }
+            .text{
+                h6{
+                    @extend %h6;
+                    color: white;
+                }
+                p{
+                    padding: 1% 25%;
+                    color: white;
+                }
+                span{
+                    color: $help_color;
+                    padding: 0% .5%;
+                }
+            }
+        }
+    }
+}
+}

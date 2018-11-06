@@ -1,13 +1,251 @@
-@media (min-width:768px) and (max-width:992px){
-    
+
+// lg
+@media (max-width: 1200px){
+%sectionIcon{
+        &::before{
+            width: 70px;
+        }
+        &::after{
+            width: 70px;
+        }
 }
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+.indexHeader{
+    .headerLeft{
+    ul{
+        padding-left: 0;
+        li{
+            padding: 2px 3px; 
+        }
+    }
+    }
+    .headerRight{
+        ul{
+            justify-content: flex-end;
+        }
+    }
+}
+#navSlide{
+    .navbar{
+        padding: 5px 10px;
+    }
+    .carousel{
+        .carousel-item{
+            .text{
+                .carouselText{
+                    p{
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+#featured{
+    margin-top: -35%;
+}
+#about{
+    .aboutDivs{
+        justify-content: space-between;
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+        .first{
+            h2{
+                font-size: 1.5em;
+            }
+            .btn{
+                padding: 10px 30px;
+            }
+        }
+        .third{
+            h6{
+                font-size: 20px;
+                span{
+                    right: 20px;
+                }
+            }
+        }
+    }
+}
+#news{
+    .cards{
+        .card{
+            .card-body{
+                height: 19em;
+            }
+        }
+    }
+}
+footer{
+    .copyright{
+        padding: 0;
+    }
+};
+};
+// md
+@media (max-width: 992px) {
+%sectionText{
+    padding: 0;
+}
+%sectionIcon{
+        &::before{
+            width: 70px;
+            left: 35%;
+        }
+        &::after{
+            width: 70px;
+            right: 35%;
+        }
+}
+.indexHeader{
+    .headerLeft{
+ul{
+    width: 100%;
+    display: table;
+}
+    }
+    .headerRight{
+ul{
+    padding-left: 0px;
+    justify-content: center;
+    li{
+        padding-right: 20px;
+    }
+}
+    }
+}
+#navSlide{
+    .carousel{
+    height: 659px;
+    .carousel-item{
+        .text{
+            .carouselText{
+                h2{
+                    font-size: 4rem;
+                }
+                p{
+                    padding: 0px 100px !important;
+                }
+            }
+        }
+    }
+}
+.navbar{
+    margin-top: 0;
+    padding: 10px;
+    background-color: $section_color;
+}
+}
+#featured{
+    position: relative;
+    margin-top: 0;
+    background-color: #f8f8f8;
+    .card{
+        padding: 20px;
+    }
+}
+#about{
+    .aboutDivs{
+        .third{
+            h6{
+                span{
+                    right: 42%;
+                }
+            }
+        }
+    }
+}
+};
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
-
+// sm
+@media (max-width: 767.98px) {
+    %sectionText{
+        padding: 0;
+    }
+    %sectionIcon{
+            &::before{
+                width: 70px;
+                left: 30%;
+            }
+            &::after{
+                width: 70px;
+                right: 30%;
+            }
+    }
+    #navSlide{
+        .carousel{
+        height: 510px;
+        .carousel-item{
+            .text{
+                .carouselText{
+                    h2{
+                        font-size: 3rem;
+                    }
+                    p{
+                        padding: 0px 100px;
+                    }
+                }
+            }
+        }
+    }
+    .navbar{
+        margin-top: 0;
+        padding: 10px;
+        background-color: $section_color;
+    }
+    }
+    #offer{
+        .services{
+            .service{
+                img{
+                    width: 70%;
+                }
+            }
+        }
+    }
+    #teem{
+        .teemMembers{
+            .teemMember{
+                .image{
+                    img{
+                       width: 70%;
+                    } 
+                }
+                
+            }
+        }
+    }
+    footer{
+        #footSec{
+            .aboutBody{
+                .list{
+                    ul{
+                        justify-content: start;
+                        li{
+                            padding: 0 10px;
+                        }
+                    }
+                }
+            }
+            .importantBody{
+                .list{
+                    ul{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        li{
+                            padding: 0 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .copyright{
+            p{
+                text-align: center;
+            }
+            ul{
+                justify-content: space-evenly;
+            }
+        }
+    }
+}
 

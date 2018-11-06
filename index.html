@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
     <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fancybox-master/dist/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/resp.css">
+    <link rel="stylesheet" href="Remember-Toggle-State-Accordion-Cookies/css/toggle.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         </button>
     </div>
     <header class="indexHeader pt-3 pb-1">
-        <div class="container-fluid">
+        <div class="container-fluid text-center">
             <div class="row d-flex justify-content-between">
                 <div class="col-lg-7 col-md-12 col-sm-12">
                     <div class="headerLeft">
@@ -104,7 +104,7 @@
                 </a>
             </div>
             <div class="container-fluid p-0">
-                <nav class="navbar navbar-expand-lg navbar-light w-100 mt-3 px-5">
+                <nav class="navbar navbar-expand-lg d-sm-flex justify-content-sm-center flex-sm-column align-items-sm-center justify-content-lg-between flex-lg-row align-items-lg-start navbar-light w-100 ">
 
                     <a class="navbar-brand" href="#">
                         <img src="index-img/logo.png" alt="logo">
@@ -112,6 +112,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
+
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto ">
@@ -170,7 +171,7 @@
         <section id="featured">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="col-lg-4 col-md-12 col-sm-12 pt-3">
                         <div class="card" id="card1">
                             <img src="index-img/featured-icon-1.png" alt="icon">
                             <a href="#">
@@ -186,7 +187,7 @@
                             <a href="#">Read More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="col-lg-4 col-md-12 col-sm-12 pt-3">
                         <div class="card" id="card2">
                             <img src="index-img/featured-icon-2.png" alt="icon">
                             <a href="#">
@@ -202,7 +203,7 @@
                             <a href="#">Read More</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="col-lg-4 col-md-12 col-sm-12 pt-3">
                         <div class="card" id="card3">
                             <img src="index-img/featured-icon-3.png" alt="icon">
                             <a href="#">
@@ -222,28 +223,40 @@
             </div>
         </section>
         <section id="about">
-            <div class="container-fluid">
-                <div class="row mt-5">
-                    <div class="first col-lg-2 col-md-12 col-sm-12">
-                        <h2>About Us</h2>
-                        <a href="#" role="button" class="btn btn-lg">READ MORE</a>
-                    </div>
-                    <div class="second col-lg-7 col-md-12 col-sm-12">
-                        <h6>We offer you the best quality services with minimal pain rate &amp; exciting treatment
-                            plans</h6>
-                        <p>Chiropractors use hands-on spinal manipulation and other alternative treatments,
-                            musculoskeletal structure, particularly the spine, will enable the body to heal the
-                            itself
-                            without surgery or medication.</p>
-                    </div>
-                    <div class="third col-lg-2 col-md-12 col-sm-12">
-                        <h6>
-                            Laureen Ramo
-                            <span>Manager</span>
-                        </h6>
+            <div class="aboutDivs">
+                <div class="container-fluid text-center">
 
-                        <img src="index-img/signatures.png" alt="signatures">
+                    <div class="row justify-content-center">
+
+                        <div class=" mt-5 col-lg-2 col-md-12 col-sm-12">
+                            <div class="first">
+                                <h2>About Us</h2>
+                                <a href="#" role="button" class="btn btn-lg">READ MORE</a>
+                            </div>
+                        </div>
+                        <div class=" mt-5 col-lg-7 col-md-12 col-sm-12">
+                            <div class="second">
+                                <h6>We offer you the best quality services with minimal pain rate &amp; exciting
+                                    treatment
+                                    plans</h6>
+                                <p>Chiropractors use hands-on spinal manipulation and other alternative treatments,
+                                    musculoskeletal structure, particularly the spine, will enable the body to heal the
+                                    itself
+                                    without surgery or medication.</p>
+                            </div>
+                        </div>
+                        <div class=" mt-5 col-lg-2 col-md-12 col-sm-12">
+                            <div class="third">
+
+                                <h6>
+                                    Laureen Ramo
+                                    <span>Manager</span>
+                                </h6>
+                                <img src="index-img/signatures.png" alt="signatures">
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
 
@@ -266,9 +279,11 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="services mt-3 pb-5">
-                    <div class="row">
+            <div class="services mt-3 pb-5">
+                <div class="container-fluid">
+
+                    <div class="row mb-3">
+
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <div class="service mb-3">
                                 <img src="index-img/services-img1.jpg" alt="service1">
@@ -285,7 +300,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="service">
+                            <div class="service mb-3">
                                 <img src="index-img/services-img2.jpg" alt="service1">
                                 <div class="servicesText mt-3">
                                     <a href="#">
@@ -299,7 +314,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12">
-                            <div class="service">
+                            <div class="service mb-3">
                                 <img src="index-img/services-img3.jpg" alt="service1">
                                 <div class="servicesText mt-3">
                                     <a href="#">
@@ -340,7 +355,7 @@
                     <div class="teemMembers w-100 d-flex ">
                         <div class="row my-5">
 
-                            <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="teemMember">
                                     <div class="image">
                                         <img src="index-img/team-member1.png" alt="team-member1">
@@ -369,7 +384,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="teemMember">
                                     <div class="image">
                                         <img src="index-img/team-member2.png" alt="team-member2">
@@ -398,7 +413,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="teemMember">
                                     <div class="image">
                                         <img src="index-img/team-member3.png" alt="team-member3">
@@ -437,9 +452,8 @@
         </section>
         <section id="clients">
             <div class="container-fluid p-0">
-
                 <div class="owl-carousel">
-                    <div class="slide pb-5">
+                    <div class="slide py-5">
                         <div class="slideContent pt-5 text-center">
                             <div class="image">
                                 <img src="index-img/testimonial-1.png" alt="testimonial-1">
@@ -462,7 +476,7 @@
                         </div>
                     </div>
 
-                    <div class="slide pb-5">
+                    <div class="slide py-5">
                         <div class="slideContent pt-5 text-center">
                             <div class="image">
                                 <img src="index-img/testimonial-2.png" alt="testimonial-1">
@@ -604,7 +618,7 @@
             <div class="container px-0 pb-5">
                 <div class="cards d-flex w-100 justify-content-center">
                     <div class="row">
-                        <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
                             <div class="card text-center">
                                 <img class="card-img-top" src="index-img/blog-img1.jpg" alt="Card image cap">
                                 <div class="card-body">
@@ -626,7 +640,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
                             <div class="card text-center">
                                 <img class="card-img-top" src="index-img/blog-img2.jpg" alt="Card image cap">
                                 <div class="card-body">
@@ -703,9 +717,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container mt-5  ">
+            <div class="container mt-5">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-3">
                         <div class="left">
                             <div class="video">
                                 <img src="index-img/video-box-img.jpg" alt="">
@@ -717,78 +731,56 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-3">
                         <div class="right">
-                            <div class="accordion" id="accordionExample">
-                                <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <h5 class="mb-0">
-                                            <a class="btn" role="button" data-toggle="collapse" data-target="#collapseOne"
-                                                aria-expanded="true" aria-controls="collapseOne">
-                                                How chiropracter activity works?
-                                            </a>
-                                        </h5>
+                            <div class="accordion_container w-100">
+                                <div class="acc">
+                                    <div class="accordion_head p-3" data-node-tag="#1">
+                                        <p>How chiropracter activity works? <span class="plusminus">+</span></p>
                                     </div>
+                                    <div class="accordion_body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus totam dolorem
+                                            cupiditate recusandae, atque repudiandae quae officiis nesciunt nulla,
+                                            placeat cumque qui incidunt excepturi sapiente voluptates voluptas culpa
+                                            nisi. Consectetur!</p>
+                                    </div>
+                                </div>
 
-                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                        data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati unde
-                                                autem animi quae odio, deserunt, eveniet culpa incidunt velit maxime
-                                                voluptas quos perferendis vel? In pariatur dolorum nam optio earum!</p>
-                                        </div>
+                                <div class="acc">
+                                    <div class="accordion_head p-3" data-node-tag="#2">
+                                        <p>What are followup procedures?<span class="plusminus">+</span></p>
+                                    </div>
+                                    <div class="accordion_body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus totam dolorem
+                                            cupiditate recusandae, atque repudiandae quae officiis nesciunt nulla,
+                                            placeat cumque qui incidunt excepturi sapiente voluptates voluptas culpa
+                                            nisi. Consectetur!</p>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-                                        <h5 class="mb-0">
-                                            <a class="btn" role="button" data-toggle="collapse" data-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                What are followup procedures?
-                                            </a>
-                                        </h5>
+
+                                <div class="acc">
+                                    <div class="accordion_head p-3" data-node-tag="#3">
+                                        <p>What are the benefits of alternative tretment?<span class="plusminus">+</span></p>
                                     </div>
-                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati unde
-                                                autem animi quae odio, deserunt, eveniet culpa incidunt velit maxime
-                                                voluptas quos perferendis vel? In pariatur dolorum nam optio earum!</p>
-                                        </div>
+                                    <div class="accordion_body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus totam dolorem
+                                            cupiditate recusandae, atque repudiandae quae officiis nesciunt nulla,
+                                            placeat cumque qui incidunt excepturi sapiente voluptates voluptas culpa
+                                            nisi. Consectetur!</p>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingThree">
-                                        <h5 class="mb-0">
-                                            <a class="btn" role="button" data-toggle="collapse" data-target="#collapseThree"
-                                                aria-expanded="false" aria-controls="collapseThree">
-                                                Where i can get the prescribed medications?
-                                            </a>
-                                        </h5>
+                                <div class="acc">
+                                    <div class="accordion_head p-3" data-node-tag="#4">
+                                        <p>Where i can get the prescribed medications?<span class="plusminus">+</span></p>
                                     </div>
-                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati unde
-                                                autem animi quae odio, deserunt, eveniet culpa incidunt velit maxime
-                                                voluptas quos perferendis vel? In pariatur dolorum nam optio earum!</p>
-                                        </div>
+                                    <div class="accordion_body">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam eligendi
+                                            aliquam quibusdam iusto itaque eos adipisci officiis veritatis! Animi
+                                            nostrum, impedit numquam nam obcaecati possimus aliquam omnis ratione
+                                            tempore inventore.</p>
                                     </div>
                                 </div>
-                                <div class="card">
-                                    <div class="card-header" id="headingForth">
-                                        <h5 class="mb-0">
-                                            <a class="btn" role="button" data-toggle="collapse" data-target="#collapseForth"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                Where i can get the prescribed medications? </a>
-                                        </h5>
-                                    </div>
-                                    <div id="collapseForth" class="collapse" aria-labelledby="headingForth" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati unde
-                                                autem animi quae odio, deserunt, eveniet culpa incidunt velit maxime
-                                                voluptas quos perferendis vel? In pariatur dolorum nam optio earum!</p>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -797,9 +789,9 @@
         </section>
         <section id="stats">
             <div class="container text-center mt-5 py-5">
-                <div class="stats py-5">
+                <div class="stats">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12 py-5">
                             <div class="stat">
                                 <div class="iconImg p-2">
                                     <img src="index-img/chemestry.png" alt="">
@@ -812,7 +804,7 @@
                                 </h6>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12 py-5">
                             <div class="stat">
                                 <div class="iconImg p-2">
                                     <img src="index-img/rocket.png" alt="">
@@ -825,7 +817,7 @@
                                 </h6>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12 py-5">
                             <div class="stat">
                                 <div class="iconImg p-2">
                                     <img src="index-img/friends.png" alt="">
@@ -838,7 +830,7 @@
                                 </h6>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-3 col-md-6 col-sm-12 py-5">
                             <div class="stat">
                                 <div class="iconImg p-2">
                                     <img src="index-img/cup.png" alt="">
@@ -860,7 +852,7 @@
         <section id="footSec" class="p-5">
             <div class="container-fluid p-5">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="colTitle">
                             <h6>About Us</h6>
                         </div>
@@ -896,7 +888,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
                         <div class="colTitle">
                             <h6>Important Links</h6>
                         </div>
@@ -916,7 +908,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="colTitle">
                             <h6>Opening hours</h6>
                         </div>
@@ -943,7 +935,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="colTitle">
                             <h6>Contat Us</h6>
                         </div>
@@ -967,17 +959,17 @@
             </div>
         </section>
         <div class="copyright pt-3">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 ">
-                        <p>
-                            © Copyright 2018 All rights reserved. Powered by
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p>
+                        © Copyright 2018 All rights reserved. Powered by
                             <a href="#">
                                 Office Address
                             </a>
                         </p>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
                         <div class="list ">
                             <ul>
                                 <li><a href="#">Home</a></li>
@@ -1004,6 +996,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
+    <script src="Remember-Toggle-State-Accordion-Cookies/js/toggle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.0/js.cookie.min.js"></script>
     <script src="js/file.js"></script>
 </body>
 
