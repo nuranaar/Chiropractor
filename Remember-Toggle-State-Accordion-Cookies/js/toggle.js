@@ -16,14 +16,30 @@ $(document).ready(function () {
             $(this).css({
                 "background-color": "#f2963f",
             });
+            if ($(this).parents().hasClass('serviceAcc')) {
+                $(this).css({
+                    "background-color": "#7fc540",
+
+                });
+                $(this).find('p').css({
+                    "color": "#444444",
+                });
+            };
             $(this).find(".plusminus").text("-");
             if ($(this).parent().siblings().find(".hide")) {
                 $(this).parent().siblings().find(".accordion_body").slideUp(300);
                 $(this).parent().siblings().find(".plusminus").text("+");
                 $(this).parent().siblings().find(".accordion_head").css({
                     "background-color": "#444444",
-                    "color": "white"
                 });
+                if ($(this).parents().hasClass('serviceAcc')) {
+                    $(this).parent().siblings().find(".accordion_head").css({
+                        "background-color": "#7fc540",
+                    });
+                    $(this).parent().siblings().find(".accordion_head").find("p").css({
+                        "color": "white",
+                    });
+                };
             }
         } else {
             $(this).next('.accordion_body').slideUp(300);
@@ -33,6 +49,14 @@ $(document).ready(function () {
                 "background-color": "#444444",
                 "color": "white"
             });
+            if ($(this).parents().hasClass('serviceAcc')) {
+                $(this).css({
+                    "background-color": "#7fc540",
+                });
+                $(this).find('p').css({
+                    "color": "white",
+                });
+            };
 
         }
 

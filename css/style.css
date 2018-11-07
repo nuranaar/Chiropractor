@@ -21,12 +21,12 @@
   font-family: "Lato", sans-serif;
 }
 
-.indexHeader .headerLeft li a, .indexHeader .headerRight li a, footer #footSec .aboutBody .list ul li a, footer #footSec .importantBody .list ul li a, footer #footSec .contactBody .list ul li a, footer .copyright p a, footer .copyright .list ul li a, #navSlide .navbar .navbar-nav li .hoverGreen, #navSlide .navbar .navbar-nav li ul li a, #featured .card h6:hover, #featured .card a, #offer .services .service .servicesText a, #teem .teemMembers .teemMember .image .imgHover ul li a, #teem .teemMembers .teemMember .text h6 a, #news .cards .card .card-body h6 a, #allSec .navbar .navbar-nav li .hoverGreen, #allSec .navbar .navbar-nav li ul li a {
+.indexHeader .headerLeft li a, .indexHeader .headerRight li a, footer #footSec .aboutBody .list ul li a, footer #footSec .importantBody .list ul li a, footer #footSec .contactBody .list ul li a, footer .copyright p a, footer .copyright .list ul li a, #navSlide .navbar .navbar-nav li .hoverGreen, #navSlide .navbar .navbar-nav li ul li a, #featured .card h6:hover, #featured .card a, #offer .services .service .servicesText a, #teem .teemMembers .teemMember .image .imgHover ul li a, #teem .teemMembers .teemMember .text h6 a, #news .cards .card .card-body h6 a, #allSec .navbar .navbar-nav li .hoverGreen, #allSec .navbar .navbar-nav li ul li a, .singleServ #singleServ .related .table tbody a {
   text-decoration: none;
   color: white;
 }
 
-.indexHeader .headerLeft li a:hover, .indexHeader .headerRight li a:hover, footer #footSec .aboutBody .list ul li a:hover, footer #footSec .importantBody .list ul li a:hover, footer #footSec .contactBody .list ul li a:hover, footer .copyright p a:hover, footer .copyright .list ul li a:hover, #navSlide .navbar .navbar-nav li .hoverGreen:hover, #navSlide .navbar .navbar-nav li ul li a:hover, #featured .card h6:hover, #featured .card a:hover, #offer .services .service .servicesText a:hover, #teem .teemMembers .teemMember .image .imgHover ul li a:hover, #teem .teemMembers .teemMember .text h6 a:hover, #news .cards .card .card-body h6 a:hover, #allSec .navbar .navbar-nav li .hoverGreen:hover, #allSec .navbar .navbar-nav li ul li a:hover {
+.indexHeader .headerLeft li a:hover, .indexHeader .headerRight li a:hover, footer #footSec .aboutBody .list ul li a:hover, footer #footSec .importantBody .list ul li a:hover, footer #footSec .contactBody .list ul li a:hover, footer .copyright p a:hover, footer .copyright .list ul li a:hover, #navSlide .navbar .navbar-nav li .hoverGreen:hover, #navSlide .navbar .navbar-nav li ul li a:hover, #featured .card h6:hover, #featured .card a:hover, #offer .services .service .servicesText a:hover, #teem .teemMembers .teemMember .image .imgHover ul li a:hover, #teem .teemMembers .teemMember .text h6 a:hover, #news .cards .card .card-body h6 a:hover, #allSec .navbar .navbar-nav li .hoverGreen:hover, #allSec .navbar .navbar-nav li ul li a:hover, .singleServ #singleServ .related .table tbody a:hover {
   text-decoration: none;
   color: #7fc540;
 }
@@ -66,7 +66,7 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   background-color: #7fc540;
 }
 
-#about .aboutDivs .first .btn, #teem .teemMembers .teemMember .image .imgHover .btn {
+#about .aboutDivs .first .btn, #teem .teemMembers .teemMember .image .imgHover .btn, .singleServ #singleServ .inputs .inputBody .btn {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -76,19 +76,19 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   border-radius: 10px;
 }
 
-#about .aboutDivs .first .btn:hover, #teem .teemMembers .teemMember .image .imgHover .btn:hover {
+#about .aboutDivs .first .btn:hover, #teem .teemMembers .teemMember .image .imgHover .btn:hover, .singleServ #singleServ .inputs .inputBody .btn:hover {
   background-color: #f2963f;
   border: 1px solid #f2963f;
 }
 
-#about .aboutDivs .first .btn:focus, #teem .teemMembers .teemMember .image .imgHover .btn:focus {
+#about .aboutDivs .first .btn:focus, #teem .teemMembers .teemMember .image .imgHover .btn:focus, .singleServ #singleServ .inputs .inputBody .btn:focus {
   background-color: #126195;
   border-color: #126195;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-#about .aboutDivs .first .btn:focus:hover, #teem .teemMembers .teemMember .image .imgHover .btn:focus:hover {
+#about .aboutDivs .first .btn:focus:hover, #teem .teemMembers .teemMember .image .imgHover .btn:focus:hover, .singleServ #singleServ .inputs .inputBody .btn:focus:hover {
   background-color: #f2963f;
   border: 1px solid #f2963f;
 }
@@ -1034,7 +1034,12 @@ footer .copyright .list ul li a:hover {
   margin-left: 80px;
 }
 
-.singleServ #singleServ img {
+.singleServ #singleServ .image {
+  width: 100%;
+}
+
+.singleServ #singleServ .image img {
+  height: 100%;
   width: 100%;
 }
 
@@ -1042,8 +1047,86 @@ footer .copyright .list ul li a:hover {
   color: #777777;
 }
 
-.singleServ #singleServ #chose .right .acc p {
+.singleServ #singleServ #chose .right .acc .accordion_head {
+  background-color: #7fc540;
+}
+
+.singleServ #singleServ #chose .right .acc .accordion_head p {
   color: white;
+}
+
+.singleServ #singleServ #chose .right .acc .accordion_head:hover p {
+  color: #444444;
+}
+
+.singleServ #singleServ #chose .right .acc .table {
+  border: 1px solid #ccc;
+}
+
+.singleServ #singleServ #chose .right .acc .table thead {
+  border-bottom: 1px solid #ccc;
+}
+
+.singleServ #singleServ #chose .right .acc .table tbody {
+  color: #777777;
+}
+
+.singleServ #singleServ .zametka {
+  border-left: 1px solid #777777;
+}
+
+.singleServ #singleServ .related {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+
+.singleServ #singleServ .related .table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.singleServ #singleServ .related .table thead {
+  color: white;
+  background-color: #99d167;
+}
+
+.singleServ #singleServ .related .table tbody a {
+  color: #444444;
+}
+
+.singleServ #singleServ .related .table tbody a:hover {
+  color: #f2963f;
+}
+
+.singleServ #singleServ .inputs {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.singleServ #singleServ .inputs .inputHead {
+  background-color: #99d167;
+  padding: 15px 15px 4px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.singleServ #singleServ .inputs .inputHead h6 {
+  font-size: 16px;
+  color: white;
+}
+
+.singleServ #singleServ .inputs .inputBody {
+  padding: 10px;
+}
+
+.singleServ #singleServ .inputs .inputBody .input-group .form-control {
+  border-radius: 0;
+}
+
+.singleServ #singleServ .inputs .inputBody .btn {
+  padding: 10px 20px;
 }
 
 @media (max-width: 1200px) {

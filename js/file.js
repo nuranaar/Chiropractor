@@ -27,5 +27,6 @@ $(document).ready(function () {
             $(".reset").css("opacity", "0");
         }
     });
+    
 });
 

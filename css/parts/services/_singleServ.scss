@@ -8,8 +8,12 @@
         }
     }
   #singleServ{
-      img{
-        width: 100%;
+      .image{
+          width: 100%;
+            img{
+                height: 100%;
+                width: 100%;
+            }  
       }
       h6{
         @extend %h6;
@@ -20,11 +24,81 @@
       #chose{
           .right{
               .acc{
-                  p{
-                      color: white;
-                  }
+                  .accordion_head{
+                      background-color: $help_color;
+                       p{
+                        color: white;
+                        }   
+                        &:hover{
+                           p{
+                               color:$section_color;
+                            } 
+                        }
+                    }
+                    .table{
+                        border: 1px solid #ccc;
+                        thead{
+                            border-bottom: 1px solid #ccc;
+                        }
+                        tbody{
+                            color: $p_color;
+                        }
+                    }
+                }
+          }
+      }
+      .zametka{
+        border-left: 1px solid $p_color;
+      }
+      .related{
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: $bg_color;
+
+          .table{
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+          thead{
+              color: white;
+              background-color: lighten($color: $help_color, $amount: 10);
+          }
+          tbody{
+              a{
+                @extend %a;
+                color: $section_color;
+                &:hover{
+                    color: $main_color;
+                }
               }
           }
+          }
+      }
+      .inputs{
+          background-color: $bg_color;
+          border: 1px solid #ccc;
+          border-radius: 10px;
+            .inputHead{
+                background-color: lighten($color: $help_color, $amount: 10) ;
+                padding: 15px 15px 4px 10px;
+                border-radius: 10px 10px 0px 0px;
+                h6{
+                    font-size: 16px;
+                    color: white;
+                }
+            }
+            .inputBody{
+                padding: 10px;
+                .input-group{
+                    .form-control{
+                    border-radius: 0;
+                    }
+                }
+                .btn{
+                    @extend %greenButton;
+                    padding: 10px 20px;
+                }
+            }
       }
   }  
 }
