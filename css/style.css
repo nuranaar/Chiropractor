@@ -1,15 +1,15 @@
-.indexHeader .headerLeft ul, .indexHeader .headerRight ul, footer #footSec .aboutBody .list ul, footer #footSec .importantBody .list ul, footer #footSec .openBody .list ul, footer #footSec .openBody .list ul li ul, footer #footSec .contactBody .list ul, footer .copyright .list ul, #teem .teemMembers .teemMember .image .imgHover ul, #allSec .sectionBg .secText ul {
+.indexHeader .headerLeft ul, .indexHeader .headerRight ul, footer #footSec .aboutBody .list ul, footer #footSec .importantBody .list ul, footer #footSec .openBody .list ul, footer #footSec .openBody .list ul li ul, footer #footSec .contactBody .list ul, footer .copyright .list ul, #teem .teemMembers .teemMember .image .imgHover ul, #allSec .sectionBg .secText ul, .blog #blogContent .box .boxList2 ul, .blog #blogContent .numlist ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
 
-.indexHeader .headerLeft ul li, .indexHeader .headerRight ul li, footer #footSec .aboutBody .list ul li, footer #footSec .importantBody .list ul li, footer #footSec .openBody .list ul li, footer #footSec .contactBody .list ul li, footer .copyright .list ul li, #teem .teemMembers .teemMember .image .imgHover ul li, #allSec .sectionBg .secText ul li {
+.indexHeader .headerLeft ul li, .indexHeader .headerRight ul li, footer #footSec .aboutBody .list ul li, footer #footSec .importantBody .list ul li, footer #footSec .openBody .list ul li, footer #footSec .contactBody .list ul li, footer .copyright .list ul li, #teem .teemMembers .teemMember .image .imgHover ul li, #allSec .sectionBg .secText ul li, .blog #blogContent .box .boxList2 ul li, .blog #blogContent .numlist ul li {
   color: white;
 }
 
-.indexHeader .headerLeft ul li i, .indexHeader .headerRight ul li i, footer #footSec .aboutBody .list ul li i, footer #footSec .importantBody .list ul li i, footer #footSec .openBody .list ul li i, footer #footSec .contactBody .list ul li i, footer .copyright .list ul li i, #teem .teemMembers .teemMember .image .imgHover ul li i, #allSec .sectionBg .secText ul li i {
+.indexHeader .headerLeft ul li i, .indexHeader .headerRight ul li i, footer #footSec .aboutBody .list ul li i, footer #footSec .importantBody .list ul li i, footer #footSec .openBody .list ul li i, footer #footSec .contactBody .list ul li i, footer .copyright .list ul li i, #teem .teemMembers .teemMember .image .imgHover ul li i, #allSec .sectionBg .secText ul li i, .blog #blogContent .box .boxList2 ul li i, .blog #blogContent .numlist ul li i {
   padding: 1px;
 }
 
@@ -21,12 +21,12 @@
   font-family: "Lato", sans-serif;
 }
 
-.indexHeader .headerLeft li a, .indexHeader .headerRight li a, footer #footSec .aboutBody .list ul li a, footer #footSec .importantBody .list ul li a, footer #footSec .contactBody .list ul li a, footer .copyright p a, footer .copyright .list ul li a, #navSlide .navbar .navbar-nav li .hoverGreen, #navSlide .navbar .navbar-nav li ul li a, #featured .card h6:hover, #featured .card a, #offer .services .service .servicesText a, #teem .teemMembers .teemMember .image .imgHover ul li a, #teem .teemMembers .teemMember .text h6 a, #news .cards .card .card-body h6 a, #allSec .navbar .navbar-nav li .hoverGreen, #allSec .navbar .navbar-nav li ul li a, .singleServ #singleServ .related .table tbody a {
+.indexHeader .headerLeft li a, .indexHeader .headerRight li a, footer #footSec .aboutBody .list ul li a, footer #footSec .importantBody .list ul li a, footer #footSec .contactBody .list ul li a, footer .copyright p a, footer .copyright .list ul li a, #navSlide .navbar .navbar-nav li .hoverGreen, #navSlide .navbar .navbar-nav li ul li a, #featured .card h6:hover, #featured .card a, #offer .services .service .servicesText a, #teem .teemMembers .teemMember .image .imgHover ul li a, #teem .teemMembers .teemMember .text h6 a, #news .cards .card .card-body h6 a, #allSec .navbar .navbar-nav li .hoverGreen, #allSec .navbar .navbar-nav li ul li a, .singleServ #singleServ .related .table tbody a, .blog #blogContent .box .boxList1 ul li a, .blog #blogContent .box .boxList2 ul li a, .blog #blogContent .box .boxList3 ul li a, .blog #blogContent .numlist ul li a {
   text-decoration: none;
   color: white;
 }
 
-.indexHeader .headerLeft li a:hover, .indexHeader .headerRight li a:hover, footer #footSec .aboutBody .list ul li a:hover, footer #footSec .importantBody .list ul li a:hover, footer #footSec .contactBody .list ul li a:hover, footer .copyright p a:hover, footer .copyright .list ul li a:hover, #navSlide .navbar .navbar-nav li .hoverGreen:hover, #navSlide .navbar .navbar-nav li ul li a:hover, #featured .card h6:hover, #featured .card a:hover, #offer .services .service .servicesText a:hover, #teem .teemMembers .teemMember .image .imgHover ul li a:hover, #teem .teemMembers .teemMember .text h6 a:hover, #news .cards .card .card-body h6 a:hover, #allSec .navbar .navbar-nav li .hoverGreen:hover, #allSec .navbar .navbar-nav li ul li a:hover, .singleServ #singleServ .related .table tbody a:hover {
+.indexHeader .headerLeft li a:hover, .indexHeader .headerRight li a:hover, footer #footSec .aboutBody .list ul li a:hover, footer #footSec .importantBody .list ul li a:hover, footer #footSec .contactBody .list ul li a:hover, footer .copyright p a:hover, footer .copyright .list ul li a:hover, #navSlide .navbar .navbar-nav li .hoverGreen:hover, #navSlide .navbar .navbar-nav li ul li a:hover, #featured .card h6:hover, #featured .card a:hover, #offer .services .service .servicesText a:hover, #teem .teemMembers .teemMember .image .imgHover ul li a:hover, #teem .teemMembers .teemMember .text h6 a:hover, #news .cards .card .card-body h6 a:hover, #allSec .navbar .navbar-nav li .hoverGreen:hover, #allSec .navbar .navbar-nav li ul li a:hover, .singleServ #singleServ .related .table tbody a:hover, .blog #blogContent .box .boxList1 ul li a:hover, .blog #blogContent .box .boxList2 ul li a:hover, .blog #blogContent .box .boxList3 ul li a:hover, .blog #blogContent .numlist ul li a:hover {
   text-decoration: none;
   color: #7fc540;
 }
@@ -66,7 +66,7 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   background-color: #7fc540;
 }
 
-#about .aboutDivs .first .btn, #teem .teemMembers .teemMember .image .imgHover .btn, .singleServ #singleServ .inputs .inputBody .btn {
+#about .aboutDivs .first .btn, #teem .teemMembers .teemMember .image .imgHover .btn, .singleServ #singleServ .inputs .inputBody .btn, .blog #blogContent .box .btn {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -76,19 +76,19 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   border-radius: 10px;
 }
 
-#about .aboutDivs .first .btn:hover, #teem .teemMembers .teemMember .image .imgHover .btn:hover, .singleServ #singleServ .inputs .inputBody .btn:hover {
+#about .aboutDivs .first .btn:hover, #teem .teemMembers .teemMember .image .imgHover .btn:hover, .singleServ #singleServ .inputs .inputBody .btn:hover, .blog #blogContent .box .btn:hover {
   background-color: #f2963f;
   border: 1px solid #f2963f;
 }
 
-#about .aboutDivs .first .btn:focus, #teem .teemMembers .teemMember .image .imgHover .btn:focus, .singleServ #singleServ .inputs .inputBody .btn:focus {
+#about .aboutDivs .first .btn:focus, #teem .teemMembers .teemMember .image .imgHover .btn:focus, .singleServ #singleServ .inputs .inputBody .btn:focus, .blog #blogContent .box .btn:focus {
   background-color: #126195;
   border-color: #126195;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-#about .aboutDivs .first .btn:focus:hover, #teem .teemMembers .teemMember .image .imgHover .btn:focus:hover, .singleServ #singleServ .inputs .inputBody .btn:focus:hover {
+#about .aboutDivs .first .btn:focus:hover, #teem .teemMembers .teemMember .image .imgHover .btn:focus:hover, .singleServ #singleServ .inputs .inputBody .btn:focus:hover, .blog #blogContent .box .btn:focus:hover {
   background-color: #f2963f;
   border: 1px solid #f2963f;
 }
@@ -1129,6 +1129,154 @@ footer .copyright .list ul li a:hover {
   padding: 10px 20px;
 }
 
+.blog #allSec .secText {
+  left: 35%;
+}
+
+.blog #allSec .secText ul {
+  margin-left: 100px;
+}
+
+.blog #blogContent #news {
+  background-color: white;
+}
+
+.blog #blogContent #news .card {
+  border: 0;
+}
+
+.blog #blogContent #news .card .card-body {
+  background-image: none;
+}
+
+.blog #blogContent #news .card .card-body .cardafter {
+  background-color: #f8f8f8;
+}
+
+.blog #blogContent .box {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+.blog #blogContent .box .form-control {
+  border-radius: 0;
+}
+
+.blog #blogContent .box .btn {
+  border-radius: 0;
+}
+
+.blog #blogContent .box .boxTitle {
+  background-color: #99d167;
+  padding: 15px 15px 4px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.blog #blogContent .box .boxTitle h6 {
+  color: white;
+  font-weight: 700;
+}
+
+.blog #blogContent .box .boxList1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+.blog #blogContent .box .boxList1 ul li {
+  padding: 10px 0px;
+  border-top: 1px solid #cccccc;
+}
+
+.blog #blogContent .box .boxList1 ul li:first-child {
+  border-top: 0;
+}
+
+.blog #blogContent .box .boxList1 ul li a {
+  color: #444444;
+}
+
+.blog #blogContent .box .boxList1 ul li a:hover {
+  color: #f2963f;
+}
+
+.blog #blogContent .box .boxList2 ul {
+  padding: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.blog #blogContent .box .boxList2 ul li {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.blog #blogContent .box .boxList2 ul li a {
+  padding: 10px;
+  background-color: #99d167;
+}
+
+.blog #blogContent .box .boxList2 ul li a:hover {
+  color: #444444;
+}
+
+.blog #blogContent .box .boxList3 ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.blog #blogContent .box .boxList3 ul li:first-child {
+  border-bottom: 1px solid #cccccc;
+}
+
+.blog #blogContent .box .boxList3 ul li a {
+  font-weight: 700;
+  color: #444444;
+}
+
+.blog #blogContent .box .boxList3 ul li a:hover {
+  color: #f2963f;
+}
+
+.blog #blogContent .box .boxList3 ul li img {
+  width: 100%;
+}
+
+.blog #blogContent hr {
+  height: 1px;
+  color: #f8f8f8;
+  width: 100%;
+}
+
+.blog #blogContent .numlist ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog #blogContent .numlist ul li {
+  margin: 3px;
+  text-align: center;
+  background-color: #dfdfdf;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.blog #blogContent .numlist ul li a {
+  color: #444444;
+}
+
+.blog #blogContent .numlist ul li:hover {
+  background-color: #7fc540;
+}
+
+.blog #blogContent .numlist ul li:hover a {
+  color: white;
+}
+
 @media (max-width: 1200px) {
   #offer .icon::before, #teem .icon::before, #news .icon::before, #chose .icon::before, #gallery .icon::before, #chose .secContent1 .icon::before {
     width: 70px;
@@ -1237,6 +1385,12 @@ footer .copyright .list ul li a:hover {
   .errorHtml #allSec .secText {
     left: 30%;
   }
+  .singleServ #allSec .secText {
+    left: 29%;
+  }
+  .blog #allSec .secText {
+    left: 29%;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -1308,6 +1462,12 @@ footer .copyright .list ul li a:hover {
   }
   .servicesHtml #allSec .sectionBg .secText {
     left: 35%;
+  }
+  .singleServ #allSec .secText {
+    left: 20%;
+  }
+  .blog #allSec .secText {
+    left: 20%;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,138 @@
+.blog{
+    #allSec{
+        .secText{
+            left: 35%;
+            ul{
+                margin-left: 100px;
+            }
+        }
+    }
+    #blogContent{
+        #news{
+            background-color: white;
+            .card{
+                border: 0;
+                .card-body{
+                    background-image:none;
+                    .cardafter{
+                        background-color: $bg_color;
+                    }
+                }
+            }
+        }
+        .box{
+            background-color: $bg_color;
+            border: 1px solid #cccccc;
+            border-radius: 10px;
+            .form-control{
+                border-radius: 0;
+            }
+            .btn{
+                @extend %greenButton;
+                border-radius: 0;
+            }
+            .boxTitle{
+                background-color: lighten($color: $help_color, $amount: 10) ;
+                padding: 15px 15px 4px 10px;
+                border-radius: 10px 10px 0px 0px;
+                h6{
+                    color: white;
+                    font-weight: 700;
+                }
+            }
+            .boxList1{
+                ul{
+                    list-style: none;
+                    margin: 0;
+                    padding: 10px;
+                    li{
+                        &:first-child{
+                            border-top: 0;
+                        }
+                        padding: 10px 0px;
+                        border-top: 1px solid #cccccc; 
+                        a{
+                            @extend %a;
+                            color: $section_color;
+                            &:hover{
+                                color: $main_color;
+                            }
+                        }
+                    }
+                }
+            }
+            .boxList2{
+                @extend %lists;
+                ul{
+                    padding: 10px;
+                    flex-wrap: wrap;
+                    li{
+                        margin-top: 10px;
+                        padding: 10px;
+                        a{
+                            padding: 10px;
+                            background-color: lighten($color: $help_color, $amount: 10);
+                            @extend %a;
+                            &:hover{
+                                color: $section_color;
+                            }
+                        }
+                    }
+                }
+            }
+            .boxList3{
+                ul{
+                    list-style: none;
+                    padding: 10px;
+                    
+                    li{
+                       &:first-child{
+                        border-bottom: 1px solid #cccccc;
+                    } 
+                        a{
+                            font-weight: 700;
+                            @extend %a;
+                            color: $section_color;
+                            &:hover{
+                                color: $main_color;
+                            }
+                        }
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        hr{
+            height: 1px;
+            color: $bg_color;
+            width: 100%;
+        }
+        .numlist{
+            @extend %lists;
+            ul{
+                justify-content: center;
+                li{
+                    margin: 3px;
+                    text-align: center;
+                    background-color: darken($color: $bg_color, $amount: 10);
+                    line-height: 50px;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 100%;
+                    a{
+                        @extend %a;
+                        color: $section_color;
+                    }
+                    &:hover{
+                        background-color: $help_color;
+                    }
+                    &:hover a{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
