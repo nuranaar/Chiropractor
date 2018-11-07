@@ -16,6 +16,11 @@
                     background-image:none;
                     .cardafter{
                         background-color: $bg_color;
+                        .card-title{
+                            a:hover{
+                                color: $main_color;
+                            }
+                        }
                     }
                 }
             }

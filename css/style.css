@@ -21,12 +21,12 @@
   font-family: "Lato", sans-serif;
 }
 
-.indexHeader .headerLeft li a, .indexHeader .headerRight li a, footer #footSec .aboutBody .list ul li a, footer #footSec .importantBody .list ul li a, footer #footSec .contactBody .list ul li a, footer .copyright p a, footer .copyright .list ul li a, #navSlide .navbar .navbar-nav li .hoverGreen, #navSlide .navbar .navbar-nav li ul li a, #featured .card h6:hover, #featured .card a, #offer .services .service .servicesText a, #teem .teemMembers .teemMember .image .imgHover ul li a, #teem .teemMembers .teemMember .text h6 a, #news .cards .card .card-body h6 a, #allSec .navbar .navbar-nav li .hoverGreen, #allSec .navbar .navbar-nav li ul li a, .singleServ #singleServ .related .table tbody a, .blog #blogContent .box .boxList1 ul li a, .blog #blogContent .box .boxList2 ul li a, .blog #blogContent .box .boxList3 ul li a, .blog #blogContent .numlist ul li a {
+.indexHeader .headerLeft li a, .indexHeader .headerRight li a, footer #footSec .aboutBody .list ul li a, footer #footSec .importantBody .list ul li a, footer #footSec .contactBody .list ul li a, footer .copyright p a, footer .copyright .list ul li a, #navSlide .navbar .navbar-nav li .hoverGreen, #navSlide .navbar .navbar-nav li ul li a, #featured .card h6:hover, #featured .card a, #offer .services .service .servicesText a, #teem .teemMembers .teemMember .image .imgHover ul li a, #teem .teemMembers .teemMember .text h6 a, #news .cards .card .card-body h6 a, #allSec .navbar .navbar-nav li .hoverGreen, #allSec .navbar .navbar-nav li ul li a, .singleServ #singleServ .related .table tbody a, .blog #blogContent .box .boxList1 ul li a, .blog #blogContent .box .boxList2 ul li a, .blog #blogContent .box .boxList3 ul li a, .blog #blogContent .numlist ul li a, #singleBlog #news .title a {
   text-decoration: none;
   color: white;
 }
 
-.indexHeader .headerLeft li a:hover, .indexHeader .headerRight li a:hover, footer #footSec .aboutBody .list ul li a:hover, footer #footSec .importantBody .list ul li a:hover, footer #footSec .contactBody .list ul li a:hover, footer .copyright p a:hover, footer .copyright .list ul li a:hover, #navSlide .navbar .navbar-nav li .hoverGreen:hover, #navSlide .navbar .navbar-nav li ul li a:hover, #featured .card h6:hover, #featured .card a:hover, #offer .services .service .servicesText a:hover, #teem .teemMembers .teemMember .image .imgHover ul li a:hover, #teem .teemMembers .teemMember .text h6 a:hover, #news .cards .card .card-body h6 a:hover, #allSec .navbar .navbar-nav li .hoverGreen:hover, #allSec .navbar .navbar-nav li ul li a:hover, .singleServ #singleServ .related .table tbody a:hover, .blog #blogContent .box .boxList1 ul li a:hover, .blog #blogContent .box .boxList2 ul li a:hover, .blog #blogContent .box .boxList3 ul li a:hover, .blog #blogContent .numlist ul li a:hover {
+.indexHeader .headerLeft li a:hover, .indexHeader .headerRight li a:hover, footer #footSec .aboutBody .list ul li a:hover, footer #footSec .importantBody .list ul li a:hover, footer #footSec .contactBody .list ul li a:hover, footer .copyright p a:hover, footer .copyright .list ul li a:hover, #navSlide .navbar .navbar-nav li .hoverGreen:hover, #navSlide .navbar .navbar-nav li ul li a:hover, #featured .card h6:hover, #featured .card a:hover, #offer .services .service .servicesText a:hover, #teem .teemMembers .teemMember .image .imgHover ul li a:hover, #teem .teemMembers .teemMember .text h6 a:hover, #news .cards .card .card-body h6 a:hover, #allSec .navbar .navbar-nav li .hoverGreen:hover, #allSec .navbar .navbar-nav li ul li a:hover, .singleServ #singleServ .related .table tbody a:hover, .blog #blogContent .box .boxList1 ul li a:hover, .blog #blogContent .box .boxList2 ul li a:hover, .blog #blogContent .box .boxList3 ul li a:hover, .blog #blogContent .numlist ul li a:hover, #singleBlog #news .title a:hover {
   text-decoration: none;
   color: #7fc540;
 }
@@ -897,6 +897,10 @@ footer .copyright .list ul li a:hover {
   padding-left: 17px;
 }
 
+#allSec .sectionBg .secText ul li:nth-child(2) a {
+  cursor: not-allowed;
+}
+
 #allSec .sectionBg .secText ul li a {
   text-decoration: none;
   color: white;
@@ -1065,10 +1069,19 @@ footer .copyright .list ul li a:hover {
 
 .singleServ #singleServ #chose .right .acc .table thead {
   border-bottom: 1px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .singleServ #singleServ #chose .right .acc .table tbody {
   color: #777777;
+}
+
+.singleServ #singleServ #chose .right .acc .table tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.singleServ #singleServ #chose .right .acc .table tbody tr:nth-child(odd) {
+  background-color: white;
 }
 
 .singleServ #singleServ .zametka {
@@ -1151,6 +1164,10 @@ footer .copyright .list ul li a:hover {
 
 .blog #blogContent #news .card .card-body .cardafter {
   background-color: #f8f8f8;
+}
+
+.blog #blogContent #news .card .card-body .cardafter .card-title a:hover {
+  color: #f2963f;
 }
 
 .blog #blogContent .box {
@@ -1275,6 +1292,35 @@ footer .copyright .list ul li a:hover {
 
 .blog #blogContent .numlist ul li:hover a {
   color: white;
+}
+
+#singleBlog #allSec ul {
+  margin-left: 130px;
+}
+
+#singleBlog #news .image img {
+  width: 100%;
+}
+
+#singleBlog #news .title {
+  font-size: 2em;
+}
+
+#singleBlog #news .title a {
+  color: #444444;
+}
+
+#singleBlog #news .title a:hover {
+  color: #f2963f;
+}
+
+#singleBlog #news span {
+  color: #f2963f;
+}
+
+#singleBlog #news .text {
+  color: #777777;
+  padding: 0;
 }
 
 @media (max-width: 1200px) {

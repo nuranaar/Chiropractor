@@ -39,9 +39,16 @@
                         border: 1px solid #ccc;
                         thead{
                             border-bottom: 1px solid #ccc;
+                            background-color: rgba(0,0,0,.05);
                         }
                         tbody{
                             color: $p_color;
+                            tr:nth-child(even){
+                                background-color: rgba(0,0,0,.05);
+                            }
+                            tr:nth-child(odd){
+                                background-color: white;
+                            }
                         }
                     }
                 }

@@ -1,0 +1,31 @@
+#singleBlog{
+    #allSec{
+            ul{
+                margin-left: 130px;
+            }
+    }
+    #news{
+        .image{
+           img{
+               width: 100%;
+           }
+        }
+        .title{
+            font-size: 2em;
+            a{
+                @extend %a;
+                color: $section_color;
+                &:hover{
+                    color: $main_color;
+                }
+            }
+        }
+        span{
+            color: $main_color;
+        }
+        .text{
+            color: $p_color;
+            padding: 0;
+        }
+    }
+}
