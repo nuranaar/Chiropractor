@@ -1,0 +1,31 @@
+#navSlide{
+    .owl-carousel{
+        .slide{
+            height: 879px;
+            .text{
+                display: flex;
+                align-items: center;
+                background-color: rgba(0, 0, 0, 0.5);
+                position: absolute;
+                top: 0;
+                height: 100%;
+                .carouselText{
+                    color: white;
+                    h2{
+                            font-weight: 700;
+                            font-size: 7em;                
+                        }
+                    p{
+                        font-size: 20px;
+                        padding: 0px 300px;
+                    }
+                    .btn{
+                        @extend %orangeButton;
+                        padding: 10px 30px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

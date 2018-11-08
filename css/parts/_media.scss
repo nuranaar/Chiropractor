@@ -28,13 +28,11 @@
     .navbar{
         padding: 5px 10px;
     }
-    .carousel{
-        .carousel-item{
-            .text{
-                .carouselText{
-                    p{
-                        padding: 0;
-                    }
+    .owl-carousel{
+        .text{
+            .carouselText{
+                p{
+                    padding: 0;
                 }
             }
         }
@@ -113,21 +111,21 @@ ul{
     }
 }
 #navSlide{
-    .carousel{
-    height: 659px;
-    .carousel-item{
-        .text{
-            .carouselText{
-                h2{
-                    font-size: 4rem;
-                }
-                p{
-                    padding: 0px 100px !important;
+    .owl-carousel{
+        .slide{
+        height: 659px;
+            .text{
+                .carouselText{
+                    h2{
+                        font-size: 4rem;
+                    }
+                    p{
+                        padding: 0px 100px !important;
+                    }
                 }
             }
         }
     }
-}
 .navbar{
     margin-top: 0;
     padding: 10px;
@@ -183,9 +181,10 @@ ul{
             }
     }
     #navSlide{
-        .carousel{
-        height: 510px;
-        .carousel-item{
+        .owl-carousel{
+            .slide{
+                height: 505px;
+
             .text{
                 .carouselText{
                     h2{
@@ -195,6 +194,7 @@ ul{
                         padding: 0px 100px;
                     }
                 }
+            
             }
         }
     }
