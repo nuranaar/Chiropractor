@@ -169,6 +169,25 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   padding: 10px 30px;
 }
 
+.chiroOnload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .indexHeader {
   background-color: #f2963f;
 }
@@ -1409,6 +1428,9 @@ footer .copyright .list ul li a:hover {
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
+  #navSlide .owl-carousel .slide {
+    height: 797px;
+  }
   #navSlide .navbar {
     padding: 5px 10px;
   }
@@ -1416,7 +1438,7 @@ footer .copyright .list ul li a:hover {
     padding: 0;
   }
   #featured {
-    margin-top: -35%;
+    margin-top: -15%;
   }
   #about .aboutDivs {
     -webkit-box-pack: justify;
@@ -1471,6 +1493,10 @@ footer .copyright .list ul li a:hover {
   #allSec .navbar {
     background-color: #444444;
   }
+  #allSec .navbar .selList {
+    background-color: #444444;
+    z-index: 5;
+  }
   #navSlide .owl-carousel .slide {
     height: 659px;
   }
@@ -1484,6 +1510,10 @@ footer .copyright .list ul li a:hover {
     margin-top: 0;
     padding: 10px;
     background-color: #444444;
+  }
+  #navSlide .navbar .selList {
+    background-color: #444444;
+    z-index: 5;
   }
   #featured {
     position: relative;

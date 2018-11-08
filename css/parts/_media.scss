@@ -25,6 +25,11 @@
     }
 }
 #navSlide{
+        .owl-carousel{
+            .slide{
+            height: 797px;
+            }
+        }
     .navbar{
         padding: 5px 10px;
     }
@@ -39,7 +44,7 @@
     }
 }
 #featured{
-    margin-top: -35%;
+    margin-top: -15%;
 }
 #about{
     .aboutDivs{
@@ -113,6 +118,10 @@ ul{
 #allSec{
     .navbar{
         background-color: $section_color;
+        .selList{
+            background-color: $section_color;
+            z-index: 5;
+        }
     }
 }
 #navSlide{
@@ -135,6 +144,10 @@ ul{
     margin-top: 0;
     padding: 10px;
     background-color: $section_color;
+    .selList{
+        background-color: $section_color;
+        z-index: 5;
+    }
 }
 }
 #featured{
