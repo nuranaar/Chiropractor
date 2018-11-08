@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $(".chiroOnload").fadeOut("slow");
     $(".hoverSel").mouseover(function () {
         $(".selList").slideUp(700);
         $(this).next().slideDown(700);
