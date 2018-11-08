@@ -110,6 +110,11 @@ ul{
 }
     }
 }
+#allSec{
+    .navbar{
+        background-color: $section_color;
+    }
+}
 #navSlide{
     .owl-carousel{
         .slide{
@@ -180,6 +185,11 @@ ul{
                 right: 30%;
             }
     }
+    #allSec{
+    .navbar{
+        background-color: $section_color + cc;
+    }
+}
     #navSlide{
         .owl-carousel{
             .slide{

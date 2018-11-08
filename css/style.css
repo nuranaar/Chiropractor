@@ -1,15 +1,15 @@
-.indexHeader .headerLeft ul, .indexHeader .headerRight ul, footer #footSec .aboutBody .list ul, footer #footSec .importantBody .list ul, footer #footSec .openBody .list ul, footer #footSec .openBody .list ul li ul, footer #footSec .contactBody .list ul, footer .copyright .list ul, #teem .teemMembers .teemMember .image .imgHover ul, #allSec .sectionBg .secText ul, .blog #blogContent .box .boxList2 ul, .blog #blogContent .numlist ul {
+.indexHeader .headerLeft ul, .indexHeader .headerRight ul, footer #footSec .aboutBody .list ul, footer #footSec .importantBody .list ul, footer #footSec .openBody .list ul, footer #footSec .openBody .list ul li ul, footer #footSec .contactBody .list ul, footer .copyright .list ul, #teem .teemMembers .teemMember .image .imgHover ul, #allSec .sectionBg .secText ul, .contactUs #contactContent .list ul, .blog #blogContent .box .boxList2 ul, .blog #blogContent .numlist ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
 
-.indexHeader .headerLeft ul li, .indexHeader .headerRight ul li, footer #footSec .aboutBody .list ul li, footer #footSec .importantBody .list ul li, footer #footSec .openBody .list ul li, footer #footSec .contactBody .list ul li, footer .copyright .list ul li, #teem .teemMembers .teemMember .image .imgHover ul li, #allSec .sectionBg .secText ul li, .blog #blogContent .box .boxList2 ul li, .blog #blogContent .numlist ul li {
+.indexHeader .headerLeft ul li, .indexHeader .headerRight ul li, footer #footSec .aboutBody .list ul li, footer #footSec .importantBody .list ul li, footer #footSec .openBody .list ul li, footer #footSec .contactBody .list ul li, footer .copyright .list ul li, #teem .teemMembers .teemMember .image .imgHover ul li, #allSec .sectionBg .secText ul li, .contactUs #contactContent .list ul li, .blog #blogContent .box .boxList2 ul li, .blog #blogContent .numlist ul li {
   color: white;
 }
 
-.indexHeader .headerLeft ul li i, .indexHeader .headerRight ul li i, footer #footSec .aboutBody .list ul li i, footer #footSec .importantBody .list ul li i, footer #footSec .openBody .list ul li i, footer #footSec .contactBody .list ul li i, footer .copyright .list ul li i, #teem .teemMembers .teemMember .image .imgHover ul li i, #allSec .sectionBg .secText ul li i, .blog #blogContent .box .boxList2 ul li i, .blog #blogContent .numlist ul li i {
+.indexHeader .headerLeft ul li i, .indexHeader .headerRight ul li i, footer #footSec .aboutBody .list ul li i, footer #footSec .importantBody .list ul li i, footer #footSec .openBody .list ul li i, footer #footSec .contactBody .list ul li i, footer .copyright .list ul li i, #teem .teemMembers .teemMember .image .imgHover ul li i, #allSec .sectionBg .secText ul li i, .contactUs #contactContent .list ul li i, .blog #blogContent .box .boxList2 ul li i, .blog #blogContent .numlist ul li i {
   padding: 1px;
 }
 
@@ -21,17 +21,17 @@
   font-family: "Lato", sans-serif;
 }
 
-.indexHeader .headerLeft li a, .indexHeader .headerRight li a, footer #footSec .aboutBody .list ul li a, footer #footSec .importantBody .list ul li a, footer #footSec .contactBody .list ul li a, footer .copyright p a, footer .copyright .list ul li a, #navSlide .navbar .navbar-nav li .hoverGreen, #navSlide .navbar .navbar-nav li ul li a, #featured .card h6:hover, #featured .card a, #offer .services .service .servicesText a, #teem .teemMembers .teemMember .image .imgHover ul li a, #teem .teemMembers .teemMember .text h6 a, #news .cards .card .card-body h6 a, #allSec .navbar .navbar-nav li .hoverGreen, #allSec .navbar .navbar-nav li ul li a, .singleServ #singleServ .related .table tbody a, .blog #blogContent .box .boxList1 ul li a, .blog #blogContent .box .boxList2 ul li a, .blog #blogContent .box .boxList3 ul li a, .blog #blogContent .numlist ul li a, #singleBlog #news .title a {
+.indexHeader .headerLeft li a, .indexHeader .headerRight li a, footer #footSec .aboutBody .list ul li a, footer #footSec .importantBody .list ul li a, footer #footSec .contactBody .list ul li a, footer .copyright p a, footer .copyright .list ul li a, #navSlide .navbar .navbar-nav li .hoverGreen, #navSlide .navbar .navbar-nav li ul li a, #featured .card h6:hover, #featured .card a, #offer .services .service .servicesText a, #teem .teemMembers .teemMember .image .imgHover ul li a, #teem .teemMembers .teemMember .text h6 a, #news .cards .card .card-body h6 a, #allSec .navbar .navbar-nav li .hoverGreen, #allSec .navbar .navbar-nav li ul li a, .contactUs #contactContent .list ul li a, .singleServ #singleServ .related .table tbody a, .blog #blogContent .box .boxList1 ul li a, .blog #blogContent .box .boxList2 ul li a, .blog #blogContent .box .boxList3 ul li a, .blog #blogContent .numlist ul li a, #singleBlog #news .title a {
   text-decoration: none;
   color: white;
 }
 
-.indexHeader .headerLeft li a:hover, .indexHeader .headerRight li a:hover, footer #footSec .aboutBody .list ul li a:hover, footer #footSec .importantBody .list ul li a:hover, footer #footSec .contactBody .list ul li a:hover, footer .copyright p a:hover, footer .copyright .list ul li a:hover, #navSlide .navbar .navbar-nav li .hoverGreen:hover, #navSlide .navbar .navbar-nav li ul li a:hover, #featured .card h6:hover, #featured .card a:hover, #offer .services .service .servicesText a:hover, #teem .teemMembers .teemMember .image .imgHover ul li a:hover, #teem .teemMembers .teemMember .text h6 a:hover, #news .cards .card .card-body h6 a:hover, #allSec .navbar .navbar-nav li .hoverGreen:hover, #allSec .navbar .navbar-nav li ul li a:hover, .singleServ #singleServ .related .table tbody a:hover, .blog #blogContent .box .boxList1 ul li a:hover, .blog #blogContent .box .boxList2 ul li a:hover, .blog #blogContent .box .boxList3 ul li a:hover, .blog #blogContent .numlist ul li a:hover, #singleBlog #news .title a:hover {
+.indexHeader .headerLeft li a:hover, .indexHeader .headerRight li a:hover, footer #footSec .aboutBody .list ul li a:hover, footer #footSec .importantBody .list ul li a:hover, footer #footSec .contactBody .list ul li a:hover, footer .copyright p a:hover, footer .copyright .list ul li a:hover, #navSlide .navbar .navbar-nav li .hoverGreen:hover, #navSlide .navbar .navbar-nav li ul li a:hover, #featured .card h6:hover, #featured .card a:hover, #offer .services .service .servicesText a:hover, #teem .teemMembers .teemMember .image .imgHover ul li a:hover, #teem .teemMembers .teemMember .text h6 a:hover, #news .cards .card .card-body h6 a:hover, #allSec .navbar .navbar-nav li .hoverGreen:hover, #allSec .navbar .navbar-nav li ul li a:hover, .contactUs #contactContent .list ul li a:hover, .singleServ #singleServ .related .table tbody a:hover, .blog #blogContent .box .boxList1 ul li a:hover, .blog #blogContent .box .boxList2 ul li a:hover, .blog #blogContent .box .boxList3 ul li a:hover, .blog #blogContent .numlist ul li a:hover, #singleBlog #news .title a:hover {
   text-decoration: none;
   color: #7fc540;
 }
 
-footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, #about .aboutDivs .third h6, #offer .services .service .servicesText a h6, #teem .teemMembers .teemMember .text h6, #clients .owl-carousel .slide .slideContent .text h6, #stats .stats h1, #stats .stats h6, #aboutContent .part h6, #chose .secContent2 .inputs .inputHead h6, .singleServ #singleServ h6 {
+footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, #about .aboutDivs .third h6, #offer .services .service .servicesText a h6, #teem .teemMembers .teemMember .text h6, #clients .owl-carousel .slide .slideContent .text h6, #stats .stats h1, #stats .stats h6, #aboutContent .part h6, #chose .secContent2 .inputs .inputHead h6, .contactUs #contactContent .title, .contactUs #contactContent .inputs form h6, .singleServ #singleServ h6 {
   color: #444444;
   font-size: 22px;
   font-weight: 700;
@@ -66,7 +66,7 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   background-color: #7fc540;
 }
 
-#about .aboutDivs .first .btn, #teem .teemMembers .teemMember .image .imgHover .btn, .singleServ #singleServ .inputs .inputBody .btn, .blog #blogContent .box .btn {
+#about .aboutDivs .first .btn, #teem .teemMembers .teemMember .image .imgHover .btn, .contactUs #contactContent .inputs form .btn, .singleServ #singleServ .inputs .inputBody .btn, .blog #blogContent .box .btn {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -76,19 +76,19 @@ footer #footSec .colTitle h6, #featured .card h6, #about .aboutDivs .second h6, 
   border-radius: 10px;
 }
 
-#about .aboutDivs .first .btn:hover, #teem .teemMembers .teemMember .image .imgHover .btn:hover, .singleServ #singleServ .inputs .inputBody .btn:hover, .blog #blogContent .box .btn:hover {
+#about .aboutDivs .first .btn:hover, #teem .teemMembers .teemMember .image .imgHover .btn:hover, .contactUs #contactContent .inputs form .btn:hover, .singleServ #singleServ .inputs .inputBody .btn:hover, .blog #blogContent .box .btn:hover {
   background-color: #f2963f;
   border: 1px solid #f2963f;
 }
 
-#about .aboutDivs .first .btn:focus, #teem .teemMembers .teemMember .image .imgHover .btn:focus, .singleServ #singleServ .inputs .inputBody .btn:focus, .blog #blogContent .box .btn:focus {
+#about .aboutDivs .first .btn:focus, #teem .teemMembers .teemMember .image .imgHover .btn:focus, .contactUs #contactContent .inputs form .btn:focus, .singleServ #singleServ .inputs .inputBody .btn:focus, .blog #blogContent .box .btn:focus {
   background-color: #126195;
   border-color: #126195;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-#about .aboutDivs .first .btn:focus:hover, #teem .teemMembers .teemMember .image .imgHover .btn:focus:hover, .singleServ #singleServ .inputs .inputBody .btn:focus:hover, .blog #blogContent .box .btn:focus:hover {
+#about .aboutDivs .first .btn:focus:hover, #teem .teemMembers .teemMember .image .imgHover .btn:focus:hover, .contactUs #contactContent .inputs form .btn:focus:hover, .singleServ #singleServ .inputs .inputBody .btn:focus:hover, .blog #blogContent .box .btn:focus:hover {
   background-color: #f2963f;
   border: 1px solid #f2963f;
 }
@@ -333,6 +333,11 @@ footer .copyright .list ul li a:hover {
   font-weight: 700 !important;
   position: absolute;
   top: 0;
+  z-index: 2;
+}
+
+#navSlide .navbar .navbar-toggler-icon {
+  color: white;
 }
 
 #navSlide .navbar .navbar-nav li {
@@ -848,6 +853,10 @@ footer .copyright .list ul li a:hover {
   z-index: 2;
 }
 
+#allSec .navbar .navbar-toggler-icon {
+  color: white;
+}
+
 #allSec .navbar .navbar-nav li {
   position: relative;
   padding: 10px;
@@ -1030,6 +1039,63 @@ footer .copyright .list ul li a:hover {
 
 .errorHtml #error .input-group .btn {
   border-radius: 0;
+}
+
+.contactUs #allSec .secText ul {
+  padding-left: 45px;
+}
+
+.contactUs #contactContent .image img {
+  width: 100%;
+}
+
+.contactUs #contactContent .title {
+  text-align: center;
+  border-bottom: 1px solid #dddddd !important;
+}
+
+.contactUs #contactContent p {
+  color: #777777;
+}
+
+.contactUs #contactContent .list ul {
+  padding: 5px;
+}
+
+.contactUs #contactContent .list ul li {
+  padding: 10px;
+}
+
+.contactUs #contactContent .list ul li a {
+  color: #7fc540;
+}
+
+.contactUs #contactContent .list ul li a:hover {
+  color: #f2963f;
+}
+
+.contactUs #contactContent .map {
+  height: 40%;
+}
+
+.contactUs #contactContent .inputs form .form-control {
+  border-radius: 0;
+}
+
+.contactUs #action {
+  background-image: none;
+}
+
+.contactUs #action .actionContent {
+  background-color: #f8f8f8;
+}
+
+.contactUs #action .actionContent .title h6 {
+  color: #444444;
+}
+
+.contactUs #action .actionContent .text {
+  color: #444444;
 }
 
 .singleServ #allSec .secText {
@@ -1402,6 +1468,9 @@ footer .copyright .list ul li a:hover {
   .indexHeader .headerRight ul li {
     padding-right: 20px;
   }
+  #allSec .navbar {
+    background-color: #444444;
+  }
   #navSlide .owl-carousel .slide {
     height: 659px;
   }
@@ -1452,6 +1521,9 @@ footer .copyright .list ul li a:hover {
   #offer .icon::after, #teem .icon::after, #news .icon::after, #chose .icon::after, #gallery .icon::after, #chose .secContent1 .icon::after {
     width: 70px;
     right: 30%;
+  }
+  #allSec .navbar {
+    background-color: #444444cc;
   }
   #navSlide .owl-carousel .slide {
     height: 505px;

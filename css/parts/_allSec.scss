@@ -10,6 +10,9 @@
         position: absolute;
         top: 0;
         z-index: 2;
+        .navbar-toggler-icon{
+            color: white;
+        }
         .navbar-nav{
             li{
             position: relative;

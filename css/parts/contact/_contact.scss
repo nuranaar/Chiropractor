@@ -1,0 +1,72 @@
+.contactUs{
+    #allSec{
+        .secText{
+            ul{
+            padding-left: 45px;
+            }
+        }
+    }
+    #contactContent{
+        .image{
+            img{
+                width: 100%;
+            }
+        }
+        .title{
+            text-align: center;
+            @extend %h6;
+            border-bottom: 1px solid lighten($color: $p_color, $amount: 40) !important;
+        }
+        p{
+            color: $p_color;
+        }
+        .list{
+            @extend %lists;
+            ul{
+                padding: 5px;
+                li{
+                    padding: 10px;
+                    a{
+                        @extend %a;
+                        color: $help_color;
+                        &:hover{
+                             color: $main_color;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .map{
+            height: 40%;
+       }
+        .inputs{
+            form{
+                h6{
+                    @extend %h6;
+                }
+                .form-control{
+                    border-radius: 0;
+                }
+                .btn{
+                    @extend %greenButton;
+                }
+            }
+        }
+    }
+
+    #action{
+        background-image: none;
+        .actionContent{
+            background-color: $bg-color;
+            .title{
+               h6{
+                    color: $section_color;
+                }
+            }
+            .text{
+                color: $section_color;
+            }
+        }  
+    }
+}
